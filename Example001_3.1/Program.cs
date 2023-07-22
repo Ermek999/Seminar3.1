@@ -1,9 +1,9 @@
 ﻿// нАПИШИТЕ ПРОГРАММУ, КОТОРАЯ НА ВХОД ПРИНИМАЕТ ДВА ЧИСЛА И ВЫДАЕТ,какое число большее, ам какоее меньшее
 
 Console.Write("Введите первое число ");
-int num1 = Convert.ToInt32((Console.ReadLine()));
+int num1 = int.Parse((Console.ReadLine()));
 Console.Write("Введите второе число ");
-int num2 = Convert.ToInt32((Console.ReadLine()));
+int num2 = int.Parse((Console.ReadLine()));
 
 
 
