@@ -41,7 +41,7 @@ if (len == 5)
 }
 else
 {
-    Console.WriteLine($"ОШИБКА: {number} - не является пятизначным");
+    Console.WriteLine($"{number} - не является пятизначным");
 }
 
 
