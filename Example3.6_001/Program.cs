@@ -1,26 +1,26 @@
-﻿// Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
-Console.Write("Введите количество элементов массива: ");
-int m = int.Parse(Console.ReadLine());
-int[] Array = new int[m];
-mas(m);
-Console.Write($"Чисел больше нуля: {quantity(Array)}");
-void mas(int m) {
-for (int i = 0; i < m; i++){
-Console.WriteLine($"Введите {i+1} элемент массива ");
-Array[i] = Convert.ToInt32(Console.ReadLine());
-}
-}
+﻿// // Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
+// Console.Write("Введите количество элементов массива: ");
+// int m = int.Parse(Console.ReadLine());
+// int[] Array = new int[m];
+// mas(m);
+// Console.Write($"Чисел больше нуля: {quantity(Array)}");
+// void mas(int m) {
+// for (int i = 0; i < m; i++){
+// Console.WriteLine($"Введите {i+1} элемент массива ");
+// Array[i] = Convert.ToInt32(Console.ReadLine());
+// }
+// }
 
-int quantity(int[] Array){
-int i=0;
-int sum = 0;
-while (i < Array.Length){
-if(Array[i]>0)
-sum ++;
-i++;
-}
-return sum;
-}
+// int quantity(int[] Array){
+// int i=0;
+// int sum = 0;
+// while (i < Array.Length){
+// if(Array[i]>0)
+// sum ++;
+// i++;
+// }
+// return sum;
+// }
 
 
 // Console.WriteLine("Введите переменную b1: ");
